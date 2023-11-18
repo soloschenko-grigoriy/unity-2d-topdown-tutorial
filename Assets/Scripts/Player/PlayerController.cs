@@ -62,7 +62,7 @@ namespace Player
 
         private void GetInput()
         {
-            _movementInput = _playerControls.ActionsMap.Movement.ReadValue<Vector2>();
+            _movementInput = _playerControls.Movement.Move.ReadValue<Vector2>();
         }
     
     
